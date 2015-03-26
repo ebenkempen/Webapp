@@ -1,0 +1,28 @@
+#pageslide_R {
+    /* These styles MUST be included. Do not change. */
+    display: none;
+    position: absolute;
+    position: fixed;
+    top: 0;
+    height: 100%;
+    z-index: 999999;
+    
+    /* Specify the width of your pageslide here */
+    width: 95%;
+
+    
+    /* These styles are optional, and describe how the pageslide will look */
+    background-color: #FFF;
+    color: #000000;
+    -webkit-box-shadow:0 0 20px 0 #222;
+    -moz-shadow:0 0 20px 0 #222;
+    box-shadow:0 0 20px 0 #222;
+}
+
+@media (max-width: 768px) {
+  #pageslide_R{
+      width: 95%;
+      height: 100%;
+      margin: auto;
+  }
+}

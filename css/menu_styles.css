@@ -1,0 +1,93 @@
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+    text-decoration: none;
+}
+
+ul li {
+    float: left;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-color: #fff;
+}
+
+h4 {
+    margin: 0px;
+}
+
+#secondary {
+    background-color: #fff;
+}
+
+#header {
+    background-color: #1c6494;
+    width: 100%;
+    height: 150px;
+    margin-top: -10px;
+}
+
+#user {
+    float: left;
+    position: relative;
+    margin-top: 15px;
+    margin-left: -25px;
+    overflow: hidden;
+    width: 76px;
+    height: 76px;
+    -webkit-mask-image: url(../images/mask.png);
+}
+
+@media (min-width: 768px) {
+    #user {
+        position: relative;
+        float: left;
+        margin-top: 15px;
+        overflow: hidden;
+        width: 76px;
+        height: 76px;
+        -webkit-mask-image: url(../images/mask.png);
+    }
+}
+
+#user_name {
+    margin-top: 100px;
+    margin-left: -75px;
+    position: relative;
+    float: left;
+    color: #fff;
+    font-weight: bold;
+}
+
+#user_email {
+    margin-top: 120px;
+    margin-left: -102px;
+    position: relative;
+    float: left;
+    color: #fff;
+}
+
+@media (min-width: 768px) {
+    #user_email {
+        margin-top: 120px;
+        margin-left: -100px;
+        position: relative;
+        float: left;
+        color: #fff;
+    }
+}
